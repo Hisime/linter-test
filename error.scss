@@ -1,0 +1,13 @@
+.instance-button {
+  @include button (
+    $padding: 0 0 0 16px,
+    $border: none,
+    $background-color: transparent,
+    $text-transform: capitalize,
+    $fill: $black-l-5);
+  .d-Icon {
+    margin-right: 16px;
+  }
+}
+
+.bad-style {}
